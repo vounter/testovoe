@@ -1,0 +1,127 @@
+{
+	"Type": "/Script/MovieSceneTools.AutomatedLevelSequenceCapture",
+	"Data":
+	{
+		"levelSequenceAsset": "/Game/NewLevelSequence.NewLevelSequence",
+		"shotName": "",
+		"bUseCustomStartFrame": false,
+		"customStartFrame":
+		{
+			"value": 0
+		},
+		"bUseCustomEndFrame": false,
+		"customEndFrame":
+		{
+			"value": 686
+		},
+		"warmUpFrameCount": 0,
+		"delayBeforeWarmUp": 0,
+		"delayBeforeShotWarmUp": 0,
+		"delayEveryFrame": 0,
+		"bWriteEditDecisionList": true,
+		"bWriteFinalCutProXML": true,
+		"levelSequenceActor": "None",
+		"imageCaptureProtocolType": "/Script/MovieSceneCapture.VideoCaptureProtocol",
+		"audioCaptureProtocolType": "/Script/MovieSceneCapture.MasterAudioSubmixCaptureProtocol",
+		"settings":
+		{
+			"outputDirectory":
+			{
+				"path": "Z:\\Unreal Projects\\test\\Saved\\VideoCaptures\\"
+			},
+			"gameModeOverride": "None",
+			"outputFormat": "{world}",
+			"bOverwriteExisting": false,
+			"bUseRelativeFrameNumbers": false,
+			"handleFrames": 0,
+			"movieExtension": ".avi",
+			"zeroPadFrameNumbers": 4,
+			"frameRate":
+			{
+				"numerator": 30,
+				"denominator": 1
+			},
+			"bUseCustomFrameRate": false,
+			"customFrameRate":
+			{
+				"numerator": 24,
+				"denominator": 1
+			},
+			"resolution":
+			{
+				"resX": 1280,
+				"resY": 720
+			},
+			"bEnableTextureStreaming": false,
+			"bCinematicEngineScalability": true,
+			"bCinematicMode": true,
+			"bAllowMovement": true,
+			"bAllowTurning": true,
+			"bShowPlayer": true,
+			"bShowHUD": false,
+			"bUsePathTracer": false,
+			"pathTracerSamplePerPixel": 16
+		},
+		"bUseSeparateProcess": true,
+		"bCloseEditorWhenCaptureStarts": false,
+		"additionalCommandLineArguments": "-NOSCREENMESSAGES"
+	},
+	"AdditionalData":
+	{
+		"ImageProtocolType": "/Script/MovieSceneCapture.VideoCaptureProtocol",
+		"ImageProtocolData":
+		{
+			"bUseCompression": true,
+			"compressionQuality": 75
+		},
+		"AudioProtocolType": "/Script/MovieSceneCapture.MasterAudioSubmixCaptureProtocol",
+		"AudioProtocolData":
+		{
+			"fileName": "{world}"
+		},
+		"BurnInOptions":
+		{
+			"bUseBurnIn": false,
+			"burnInClass": "/Engine/Sequencer/DefaultBurnIn.DefaultBurnIn_C",
+			"settings": "DefaultBurnInOptions_C'/Engine/Transient.MovieSceneCaptureUIInstance:MovieSceneCaptureUIInstance.Settings'"
+		},
+		"BurnInOptionsInitSettings":
+		{
+			"topLeftText": "{FocalLength}mm, {Aperture}, {FocusDistance} ",
+			"topCenterText": "{MasterName} - {Date} - {EngineVersion}",
+			"topRightText": "{TranslationX} {TranslationY} {TranslationZ}, {RotationX} {RotationY} {RotationZ}",
+			"bottomLeftText": "{ShotName}",
+			"bottomCenterText": "{hh}:{mm}:{ss}:{ff} ({MasterFrame})",
+			"bottomRightText": "{SourceTimecode}  {ShotFrame}",
+			"watermark": "None",
+			"watermarkTint":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 0.5
+			},
+			"font":
+			{
+				"fontObject": "Font'/Engine/EngineFonts/DroidSansMono.DroidSansMono'",
+				"fontMaterial": "None",
+				"outlineSettings":
+				{
+					"outlineSize": 0,
+					"bSeparateFillAlpha": false,
+					"bApplyOutlineToDropShadows": true,
+					"outlineMaterial": "None",
+					"outlineColor":
+					{
+						"r": 0,
+						"g": 0,
+						"b": 0,
+						"a": 1
+					}
+				},
+				"typefaceFontName": "Default",
+				"size": 16
+			}
+		}
+	}
+}
